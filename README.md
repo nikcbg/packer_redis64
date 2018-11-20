@@ -49,7 +49,7 @@ hz:10
 lru_clock:15975610
 config_file:/etc/redis/redis.conf
 ```
-- Execute `exit` to exit the VM to test with `kitchen`.
+- Execute `exit` to exit the VM and start testing with `kitchen`.
 
 ### Setting up `ruby` environment on Ubuntu 18.04 instructions:
 - Before testing with `kitchen` you need to install and prepare `ruby` environment.
