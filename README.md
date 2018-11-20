@@ -83,7 +83,7 @@ rbenv ()
 - Execute `rbenv install 2.5.3` to install `ruby 2.5.3` version.
 - Execute `rbenv local 2.5.3` to set the default version of `ruby` to your local directory.
 - Execute `rbenv -v` to make sure `ruby` is installed and you have the correct version.
-- Execute `gem install bundler` to install `gem`whuch is package manager for `ruby`, the output will display the following:
+- Execute `gem install bundler` to install `gem` which is package manager for `ruby`, the output will display the following:
 ```
 Successfully installed bundler-1.17.1
 1 gem installed
