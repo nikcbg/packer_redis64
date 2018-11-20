@@ -28,7 +28,27 @@
 - Execute `vagrant init redis64` to create Vagrantfile if one doesn't already exist.  
 - Execute `vagrant up` command to power up the VM.
 - Execute `vagrant ssh` to log in to the VM.
-- Execute `redis-cli info server` to see if `redis` server is installed and runing. 
+- Execute `redis-cli info server` to see if `redis` server is installed and runing, the output will display the following:
+```
+# Server
+redis_version:3.0.6
+redis_git_sha1:00000000
+redis_git_dirty:0
+redis_build_id:687a2a319020fa42
+redis_mode:standalone
+os:Linux 4.4.0-62-generic x86_64
+arch_bits:64
+multiplexing_api:epoll
+gcc_version:5.3.1
+process_id:776
+run_id:413251117d490b0e65c1eea6df7d0b4624c71c2e
+tcp_port:6379
+uptime_in_seconds:1502
+uptime_in_days:0
+hz:10
+lru_clock:15975610
+config_file:/etc/redis/redis.conf
+```
 - Execute `exit` to exit the VM to test with `kitchen`.
 
 ### Setting up `ruby` environment on Ubuntu 18.04 instructions:
