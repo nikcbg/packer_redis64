@@ -6,9 +6,9 @@ provisioner:
   name: shell
 
 platforms:
-  - name: vbox/redis-server
+  - name: vbox/redis64
     driver:
-      box: redis-server
+      box: redis64
       provider: virtualbox
  
 verifier:
