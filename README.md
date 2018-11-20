@@ -97,4 +97,4 @@ Successfully installed bundler-1.17.1
 - Execute `bundle exec kitchen test` to automatically build, test and destroy `kitchen` environment.
 
 ### TO DO:
-- Check if `redis` is installed and running. 
+- Check if `redis server` is installed and running. 
