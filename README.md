@@ -20,7 +20,7 @@
 - Install `packer` by following this [instructions](https://www.packer.io/intro/getting-started/install.html).
 - Clone the repository to your local computer: `git clone git@github.com:nikcbg/packer_redis64.git`.
 - Go to the cloned repo on your computer: `cd packer_redis64`.
-- Execute `packer validate template.json` to validates `template.json` file, after executing the command it shoudl return `Template validated successfully` message. 
+- Execute `packer validate template.json` to validates `template.json` file, after executing the command it should return `Template validated successfully` message. 
 - Execute `packer build template.json`  to start building the virtual machine you need to run your tests on. 
 - After that you should see this message `redis64-vbox: 'virtualbox' provider box: redis64-vbox.box` which means that the VM box was created successfully.
 - Execute `vagrant box list` to see the list of `vagrant` boxes.
