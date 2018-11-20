@@ -1,7 +1,7 @@
 # packer_redis64
 
 ### Purpose of the repository 
-- The repository should have the minimal code for creating redis-server box with `Packer`.
+- The repository should have the minimal code for creating `redis server` box with `Packer`.
 
 #### List of files in the repository
 
